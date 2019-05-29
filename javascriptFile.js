@@ -1,10 +1,20 @@
-function addnumbers(){
-    var i;
-var sum=0;
+function countdown(){
+    startingNumber = 504;
+    endingNumber = 107;
+    stepDown = 38;
+    i= startingNumber;
+    while(i>endingNumber){
 
-    for(i=1;i<=10;i++){
-      
-        sum+=i;
+        i-=stepDown;
+        TheAnswer+=i;
     }
-    return sum;
+    return TheAnswer;
+}
+
+function PracticeIfThen(inputnumber){
+
+    if(inputnumber>50){
+        return "YES";
+    }
+    else{return "NO";}
 }
